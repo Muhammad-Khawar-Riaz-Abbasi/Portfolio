@@ -12,7 +12,7 @@ const Footer = () => {
           <h4>Connect With Me</h4>
           <div className="social-icons">
             <a
-              href="https://www.instagram.com/mfakharrizwan"
+              href="https://www.instagram.com/khaviiiiiiiii_/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -20,7 +20,7 @@ const Footer = () => {
               <i className="fab fa-instagram"></i>
             </a>
             <a
-              href="mailto:mfakhar910@gmail.com"
+              href="mailto:khawarworkspace@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Gmail"
@@ -28,28 +28,28 @@ const Footer = () => {
               <i className="fas fa-envelope"></i>
             </a>
             <a
-              href="https://linkedin.com/in/muhammad-fakhar-rizwan-65548b258"
+              href="https://pk.linkedin.com/in/muhammad-khawar-riaz-abbasi-9b98632a6"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
             </a>
-            <a
-              href="https://bento.me/muhammadfakharrizwan"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Bento.me"
-            >
-              <i className="fas fa-link"></i>
-            </a>
+
           </div>
         </div>
       </div>
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>&copy; 2025 Syed Muhammad Fakhar Rizwan. All Rights Reserved.</p>
+        <p>&copy; 2025 <a
+              href="mailto:khawarworkspace@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Gmail"
+            >
+              <i className="fas fa-envelope">M Khawar Riaz Abbasi.</i>
+            </a> All Rights Reserved.</p>
       </div>
     </footer>
   );

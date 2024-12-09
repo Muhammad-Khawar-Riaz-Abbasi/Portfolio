@@ -54,6 +54,11 @@ footer {
   .social-icons a:hover {
     color: #ff7f50;
   }
+.footer-bottom i{
+  font-size: 19px;
+  color: #b0b0b0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
   
   /* Footer Bottom */
   .footer-bottom {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile3.jpeg";
  // Replace with the actual path to your profile picture
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       <div className="profile-container">
         <img src={profile} alt="Profile" className="profile-pic" />
       </div>
-      <h1>MERN Stack Developer</h1>
+      <h1>Frontend Developer</h1>
       <p>
         Developing powerful web solutions with a focus on performance and scalability.
       </p>

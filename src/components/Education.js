@@ -9,14 +9,14 @@ const Education = () => {
       institution: "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology.",
     },
     {
-      year: "2019",
+      year: "2018-2019",
       degree: "Higher Secondary School Certificate (ICS)",
-      institution: "Islamabad Model College For Boys H-9 Islamabad.",
+      institution: "Spring Field College Bagh Ajk.",
     },
     {
-      year: "2017",
+      year: "2017-2018",
       degree: "Secondary School Certificate",
-      institution: "FG Boys Public School Westridge-1 Rawalpindi.",
+      institution: "Spring Field College Bagh Ajk.",
     },
   ];
 

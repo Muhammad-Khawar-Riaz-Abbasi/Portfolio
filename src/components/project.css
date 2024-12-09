@@ -171,6 +171,9 @@
     .github-link {
       padding: 8px 16px;
     }
+    .pinterest-link {
+      padding: 6px 16px;
+    }
   }
   
   /* For smaller tablets and large phones (600px - 480px) */
@@ -197,6 +200,10 @@
     }
   
     .github-link {
+      padding: 6px 12px;
+    }
+
+    .pinterest-link {
       padding: 6px 12px;
     }
   }
@@ -226,5 +233,36 @@
     .github-link {
       padding: 6px 12px;
     }
+    .pinterest-link {
+      padding: 6px 12px;
+    }
   }
   
+  @media (max-width: 340px) {
+    .projects-title {
+      font-size: 1.6rem;
+    }
+  
+    .projects-description {
+      font-size: 0.9rem;
+    }
+  
+    .projects-container {
+      grid-template-columns: 1fr; /* Stack the project cards vertically */
+    }
+  
+    .project-card-title {
+      font-size: 1.2rem;
+    }
+  
+    .project-card-description {
+      font-size: 0.8rem;
+    }
+  
+    .github-link {
+      padding: 4px 8px;
+    }
+    .pinterest-link {
+      padding: 4px 8px;
+    }
+  }

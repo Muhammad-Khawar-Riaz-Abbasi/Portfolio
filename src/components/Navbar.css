@@ -7,6 +7,7 @@
   z-index: 1000;
   margin: 0 auto; /* Center the navbar */
   border-radius: 0px; /* Optional: Add some style */
+  cursor: pointer;
 }
 
 .navbar-container {
@@ -18,7 +19,7 @@
 }
 
 .navbar-logo {
-  color: #8cb86f;
+  color: #d8d4d4;
   font-size: 1.5rem;
   text-align: center;
   margin-left: 4%;

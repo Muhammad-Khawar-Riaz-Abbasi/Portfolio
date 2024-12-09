@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="navbar-logo">Syed M Fakhar Rizwan.</h1>
+        <h1 className="navbar-logo">Muhammad Khawar Riaz Abbasi.</h1>
         <button className="hamburger" onClick={toggleMenu}>
           <span className="line"></span>
           <span className="line"></span>
