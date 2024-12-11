@@ -2,24 +2,24 @@ import React from 'react';
 import './project.css'; // Custom CSS for the component
 
 // Importing project images from the assets folder
-import projectOneImage from '../assets/ordermunch.png'; // Adjust the path if needed
+import projectOneImage from '../assets/foody.png'; // Adjust the path if needed
 import projectTwoImage from '../assets/smartquery.png'; // Adjust the path if needed
 
 const Project = () => {
   const projects = [
     {
-      title: 'OrderMunch',
+      title: 'Foody',
       description: 'A comprehensive food ordering platform with user-friendly design and real-time tracking.',
       image: projectOneImage, // Use imported image
-      githubLink: 'https://mfakharrizwan.github.io/OrderMunch/',
-      pinterestLink: 'https://pin.it/7AxYxN39m', // Example link
+      githubLink: 'https://muhammad-khawar-riaz-abbasi.github.io/Foody/',
+      pinterestLink: 'https://pin.it/4nT62bfGA', // Example link
     },
     {
       title: 'SmartQuery',
       description: 'An intelligent query management system that simplifies complex operations for businesses.',
       image: projectTwoImage, // Use imported image
       githubLink: 'https://github.com/username/project-two',
-      pinterestLink: 'https://pin.it/20Of10uAG', // Example link
+      pinterestLink: 'https://pin.it/6zNhZyvMC', // Example link
     },
   ];
 

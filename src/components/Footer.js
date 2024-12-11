@@ -43,7 +43,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="footer-bottom">
         <p>&copy; 2025 <a
-              href="mailto:khawarworkspace@gmail.com"
+              href="https://linktr.ee/KhawarAbbasi"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Gmail"
