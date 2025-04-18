@@ -1,21 +1,26 @@
+/* === Home Section === */
 .home {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #e0f7fa, #d1c4e9); /* Background gradient */
-  padding: 0 20px;
+  background: linear-gradient(to right, #e0f7fa, #d1c4e9);
+  padding: 40px 20px;
+  box-sizing: border-box;
   overflow: hidden;
 }
 
 .home-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 1200px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
+/* === Profile Image === */
 .profile-container {
   flex: 1;
   display: flex;
@@ -24,104 +29,117 @@
 }
 
 .profile-pic {
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
 }
 
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+/* === Text Content === */
 .text-container {
   flex: 2;
-  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align text to the left */
+  justify-content: center;
+  padding: 10px 20px;
 }
 
 .text-container h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  font-weight: bold;
-  white-space: nowrap; /* Prevent text wrapping */
-  overflow: hidden;
+  font-size: 2.8rem;
+  font-weight: 700;
   color: #5f52aa;
-  border-right: 2px solid #000000;
-  animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #000;
+  animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
 }
 
-/* Typing effect */
+.text-container p {
+  font-size: 1.25rem;
+  color: #444;
+  line-height: 1.6;
+  max-width: 700px;
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+/* === Typing Effect === */
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 50%;
-  }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
 @keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+  50% { border-color: transparent; }
 }
 
-p {
-  font-size: 1.2rem;
-  margin-top: 20px;
-  color: #555; /* Subtle text color */
-  animation: fadeInUp 2s ease-in-out;
-}
-
-/* Fade-in animation for paragraph */
+/* === Fade In Animation === */
 @keyframes fadeInUp {
   0% {
-    transform: translateY(20px);
     opacity: 0;
+    transform: translateY(25px);
   }
   100% {
-    transform: translateY(0);
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* Responsive Design */
+/* === Responsive Styles === */
+@media screen and (max-width: 992px) {
+  .text-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .text-container p {
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .home-content {
     flex-direction: column;
     text-align: center;
   }
 
-  .profile-container {
-    margin-bottom: 20px;
-  }
-
   .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
   }
 
-  h1 {
-    font-size: 2rem;
+  .text-container {
+    padding: 0;
+    align-items: center;
   }
 
-  p {
-    font-size: 1rem;
+  .text-container h1 {
+    white-space: normal;
+    text-align: center;
+    border-right: none;
+    animation: none;
   }
 }
 
 @media screen and (max-width: 480px) {
-  h1 {
+  .text-container h1 {
     font-size: 1.8rem;
   }
 
-  p {
-    font-size: 0.9rem;
+  .text-container p {
+    font-size: 1rem;
   }
 
   .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
 }
+
 
