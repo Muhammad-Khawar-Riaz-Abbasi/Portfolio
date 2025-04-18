@@ -64,7 +64,7 @@
 }
 
 .typewriter-effect.delay {
-  animation: typing 3.5s steps(50, end) 3.6s forwards, blink 0.75s step-end infinite;
+  
   font-size: 1.25rem;
   font-weight: 400;
   color: #444;
