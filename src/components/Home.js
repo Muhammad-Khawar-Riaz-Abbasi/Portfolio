@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profile from "../assets/profile3.jpeg"; // Replace with the actual path to your profile picture
+import profile from "../assets/profile3.jpeg"; // Make sure this path is correct
 
 const Home = () => {
   return (
@@ -13,9 +13,9 @@ const Home = () => {
 
         {/* Text Content */}
         <div className="text-container">
-          <h1 className="typewriter">Networking Engineer | Frontend Developer</h1>
-          <p className="animated-text">
-          &nbsp;&nbsp;Computer Science graduate with experience in networking, cloud computing, IT systems, and frontend development.
+          <h1 className="typewriter-effect">Networking Engineer | Frontend Developer</h1>
+          <p className="typewriter-effect delay">
+            Computer Science graduate with experience in networking, cloud computing, IT systems, and frontend development.
           </p>
         </div>
       </div>
@@ -24,6 +24,7 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
 
