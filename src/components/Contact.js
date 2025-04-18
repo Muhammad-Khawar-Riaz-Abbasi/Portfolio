@@ -12,8 +12,8 @@ const Contact = () => {
           reach out for any questions or opportunities.
         </p>
         <a
-          href="/KHAWAR.pdf" // Path to your CV file in the public folder
-          download="KHAWAR.pdf" // Suggested download name
+          href="/Untitled document (4).pdf" // Path to your CV file in the public folder
+          download="Khawar Riza Abbasi.pdf" // Suggested download name
           className="download-btn"
         >
           Download Resume
@@ -23,7 +23,7 @@ const Contact = () => {
       {/* Right Side: Resume Viewer */}
       <div className="resume-right">
         <object
-          data="/KHAWAR.pdf"
+          data="/Untitled document (4).pdf"
           type="application/pdf"
           width="100%"
           height="600px"
@@ -31,7 +31,7 @@ const Contact = () => {
         >
           <p>
             Your browser does not support viewing PDFs. You can download the resume{" "}
-            <a href="/KHAWAR.pdf" download="KHAWAR.pdf">
+            <a href="/Untitled document (4).pdf" download="Untitled document (4).pdf">
               here
             </a>.
           </p>
