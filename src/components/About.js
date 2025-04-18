@@ -7,7 +7,7 @@ const About = () => {
       <div className="content-container">
         <h2 data-aos="fade-up">Who Am I?</h2>
         <p data-aos="fade-up" data-aos-delay="200">
-        I am a passionate front-end web developer with expertise in HTML, CSS, Bootstrap and JavaScript. Alongside my skills in front-end technologies, I am proficient in MySQL database programming and experienced in C++ programming. As a dedicated Computer Science student at SZABIST University, I strive to deepen my knowledge and explore new technologies in the field of software development. Outside of coding, I enjoy playing PC games and immersing myself in story-driven books, which help me unwind and spark creativity in my projects!!
+         I'm Muhammad Khawar Riaz Abbasi, a CS graduate with skills in networking, frontend development, and IT support. I create efficient, user-friendly solutions using HTML, CSS, JavaScript, and MySQL.
         </p>
       </div>
     </section>
