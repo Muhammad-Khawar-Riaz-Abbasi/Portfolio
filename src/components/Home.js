@@ -13,7 +13,7 @@ const Home = () => {
 
         {/* Text Content */}
         <div className="text-container">
-          <h1 className="typewriter">Networking Engineer | Frontend Developer | Computer Science Graduate</h1>
+          <h1 className="typewriter">Networking Engineer | Frontend Developer</h1>
           <p className="animated-text">
             Computer Science graduate with experience in networking, cloud computing, IT systems, and frontend development.
           </p>
