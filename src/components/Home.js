@@ -14,9 +14,10 @@ const Home = () => {
         {/* Text Content */}
         <div className="text-container">
           <h1 className="typewriter-effect">Networking Engineer | Frontend Developer</h1>
-          <p className="typewriter-effect delay">
-            Computer Science graduate with experience in networking, cloud computing, IT systems, and frontend development.
-          </p>
+          <p className="fade-in-text">
+  Computer Science graduate with experience in networking, cloud computing, IT systems, and frontend development.
+</p>
+
         </div>
       </div>
     </section>
