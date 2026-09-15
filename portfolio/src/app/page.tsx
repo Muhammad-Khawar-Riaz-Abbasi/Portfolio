@@ -47,6 +47,24 @@ export default function Home() {
             <a href="https://github.com/Muhammad-Khawar-Riaz-Abbasi/securescope" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
           </div>
         </article>
+        <article className="project-card" style={{ marginTop: "18px" }}>
+          <div className="project-top">
+            <div>
+              <p className="project-kicker">ContextForge / 2026</p>
+              <h2>Evidence-backed incident intelligence for engineering teams.</h2>
+              <p className="project-summary">A production-minded backend that combines async ingestion, hybrid retrieval, vector-ready storage, and cited RAG answers to help teams investigate outages without losing the evidence trail.</p>
+            </div>
+            <div className="project-mark">CF</div>
+          </div>
+          <div className="project-details">
+            <div><span className="detail-label">Stack</span><p>Python · FastAPI · PostgreSQL · pgvector · Redis</p></div>
+            <div><span className="detail-label">Highlights</span><p>Tenant boundaries · Idempotent ingestion · Grounded citations</p></div>
+          </div>
+          <div className="project-footer">
+            <span className="status-dot">● Backend platform in active development</span>
+            <a href="https://github.com/Muhammad-Khawar-Riaz-Abbasi/securescope/tree/main/contextforge" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
+          </div>
+        </article>
       </section>
 
       <section id="about" className="approach shell">
