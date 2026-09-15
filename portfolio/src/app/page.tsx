@@ -12,6 +12,7 @@ export default function Home() {
         <a className="wordmark" href="/">K<span>R</span>A</a>
         <div className="nav-links">
           <a href="#work">Selected work</a>
+          <a href="#contextforge">ContextForge</a>
           <a href="#about">Approach</a>
           <a className="nav-cta" href="mailto:khawarworkspace@gmail.com">Let&apos;s talk <span>↗</span></a>
         </div>
@@ -20,7 +21,7 @@ export default function Home() {
       <section className="hero shell">
         <p className="eyebrow">Software engineer · security-minded builder</p>
         <h1>I build products where <em>clarity</em> and engineering rigor meet.</h1>
-        <p className="hero-copy">I&apos;m Muhammad Khawar Riaz Abbasi. I design and ship thoughtful web experiences, reliable APIs, and privacy-conscious systems that turn complex problems into products people can trust.</p>
+        <p className="hero-copy">I&apos;m Muhammad Khawar Riaz Abbasi. I design and ship thoughtful web experiences, reliable APIs, and privacy-conscious systems that turn complex problems into products people can trust. My latest backend project is <strong>ContextForge</strong>, an evidence-backed incident intelligence platform built around RAG and vector search.</p>
         <div className="hero-actions">
           <a className="button primary" href="#work">Explore my work <span>↓</span></a>
           <a className="button secondary" href="mailto:khawarworkspace@gmail.com">Get in touch <span>↗</span></a>
@@ -47,7 +48,7 @@ export default function Home() {
             <a href="https://github.com/Muhammad-Khawar-Riaz-Abbasi/securescope" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
           </div>
         </article>
-        <article className="project-card" style={{ marginTop: "18px" }}>
+        <article id="contextforge" className="project-card" style={{ marginTop: "18px" }}>
           <div className="project-top">
             <div>
               <p className="project-kicker">ContextForge / 2026</p>
